@@ -1,4 +1,6 @@
+github.com/12yanogden/bytes v0.0.0-20240106031941-a4d2ffc46883 h1:TpVk4nyN7dSJ9D2GRDeVprnL5N4nUmIMyWnm1YLwWfc=
+github.com/12yanogden/bytes v0.0.0-20240106031941-a4d2ffc46883/go.mod h1:8UNGUu2GQniLRVtxzuSbYqsD8gkZl+Jvs6uQlYtdSHM=
+github.com/12yanogden/bytes v0.0.0-20240527125255-45d218d19afd h1:YZtkkvt40vxRfrA6//a698KO5iTNiu/YniODHC7hkNw=
+github.com/12yanogden/bytes v0.0.0-20240527125255-45d218d19afd/go.mod h1:8UNGUu2GQniLRVtxzuSbYqsD8gkZl+Jvs6uQlYtdSHM=
 github.com/12yanogden/cat v0.0.0-20240526210342-b97583caa79c h1:HwBTk7dWqLPcHO1j+bDstPdpWS69R0zNtvUyEmxv17c=
 github.com/12yanogden/cat v0.0.0-20240526210342-b97583caa79c/go.mod h1:qPUKbL+qrQTS9yhCJlqiHkOXsXFVz2nOur5JKn9gm/g=
-github.com/12yanogden/errors v0.0.0-20231228214306-8b23b695188b h1:Aez54untSAhW3KDg59yEzkeYpLey76jJKGb6B9Rsb1c=
-github.com/12yanogden/errors v0.0.0-20231228214306-8b23b695188b/go.mod h1:TjLkJ8S1sJ/YmUsPhKzsIIX0oAgT/xxkxwMOMtgeaBg=

@@ -12,7 +12,7 @@ func TestCatError(t *testing.T) {
 	actual := err == nil
 
 	if expected != actual {
-		t.Fatalf("\nExpected: %v\nActual: %v\n", expected, actual)
+		t.Fatalf("\nExpected:\t%v\nActual:\t\t%v\n", expected, actual)
 	}
 }
 
@@ -26,7 +26,7 @@ func TestParse(t *testing.T) {
 	actual, _ := parse(dot_env_file)
 
 	if !reflect.DeepEqual(expected, actual) {
-		t.Fatalf("\nExpected: %v\nActual: %v\n", expected, actual)
+		t.Fatalf("\nExpected:\t%v\nActual:\t\t%v\n", expected, actual)
 	}
 }
 
@@ -36,6 +36,19 @@ func TestGet(t *testing.T) {
 	actual, _ := Get(dot_env_file, "KEY2")
 
 	if expected != actual {
-		t.Fatalf("\nExpected: %v\nActual: %v\n", expected, actual)
+		t.Fatalf("\nExpected:\t%v\nActual:\t\t%v\n", expected, actual)
+	}
+}
+
+func TestSet(t *testing.T) {
+	dot_env_file := ".env"
+	expected := "CHANGED"
+	actual := ""
+
+	Set(dot_env_file, "KEY2", "CHANGED")
+	actual, _ = Get(dot_env_file, "KEY2")
+
+	if expected != actual {
+		t.Fatalf("\nExpected:\t%v\nActual:\t\t%v\n", expected, actual)
 	}
 }
